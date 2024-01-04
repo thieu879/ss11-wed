@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+.container {
+    width: 40%;
+    background-color: gray;
+    height: 100vh;
+    padding: 20px  40px;
+}
+
+.heading {
+    margin-bottom: 24px;
+}
+.post-container  {
+    gap: 20px;
+    display: flex;
+}
+
+.post-left img {
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.post-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.post-tile {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.post-year {
+    display: flex;
+    gap: 24px;
+}
+
+hr {
+    margin: 24px 0;
+}

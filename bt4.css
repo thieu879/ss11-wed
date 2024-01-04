@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.khung{
+    width: 700px;
+    height: 300px;
+    background-color: rgb(237, 205, 145);
+}
+li{
+    list-style: none;
+}
+.list {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.khung-1 {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+

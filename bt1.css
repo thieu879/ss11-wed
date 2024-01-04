@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.me {
+    width: 100%;
+    height: 50px;
+    background: gainsboro;
+}
+.me-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.khung {
+    display: flex;
+    margin-top: 15px;
+}
+.me-can {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+b{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+li{
+    list-style: none;
+}
+span{
+    margin-top: 3px;
+}
